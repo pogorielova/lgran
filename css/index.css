@@ -1,0 +1,109 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between; }
+
+.wrapper {
+  width: 1150px;
+  margin: auto; }
+
+html {
+  font-size: 10px; }
+  html body {
+    color: white; }
+
+header {
+  background: url("../img/header-back.png");
+  background-size: cover;
+  padding-top: 85px;
+  padding-bottom: 55px;
+  font-family: 'Chivo', sans-serif; }
+  header nav {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 2rem;
+    margin-bottom: 250px;
+    position: relative;
+    z-index: 100; }
+    header nav .flex-container {
+      align-items: center; }
+      header nav .flex-container .menu {
+        list-style: none;
+        padding-left: 0;
+        justify-content: space-between; }
+        header nav .flex-container .menu-item {
+          text-transform: uppercase;
+          font-size: 2.1rem;
+          padding: 0 20px; }
+          header nav .flex-container .menu-item a {
+            text-decoration: none;
+            color: white; }
+            header nav .flex-container .menu-item a:hover {
+              color: #FFC901; }
+      header nav .flex-container img {
+        width: 16rem;
+        padding: 0 6.8rem;
+        cursor: pointer; }
+  header .header-img {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  header .wrapper {
+    text-align: right; }
+    header .wrapper h1 {
+      width: 560px;
+      font-weight: 400;
+      margin-left: auto;
+      font-size: 4.2rem;
+      text-transform: uppercase;
+      color: white; }
+    header .wrapper .subh1 {
+      display: block;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 3.2rem;
+      color: #ffc901;
+      font-weight: 400;
+      margin-bottom: 120px; }
+    header .wrapper .big-logo {
+      width: 320px;
+      margin-bottom: 155px; }
+  header .book {
+    background-image: linear-gradient(to right, transparent 55%, rgba(255, 255, 255, 0.5));
+    padding: 0.1rem; }
+    header .book p {
+      text-transform: uppercase;
+      font-size: 4.9rem; }
+      header .book p span {
+        color: #ffc901; }
+
+.about {
+  background-image: url("../img/about-back.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 60px 0 90px 90px; }
+  .about-content {
+    width: 580px;
+    text-align: center; }
+    .about-content .flex-container {
+      align-items: center; }
+      .about-content .flex-container .decor-yellow {
+        width: 6.4rem; }
+      .about-content .flex-container h2 {
+        font-size: 5.5rem;
+        line-height: 5.8rem;
+        font-family: "Chivo";
+        font-weight: 400; }
+    .about-content p {
+      font-size: 2.1rem;
+      line-height: 3.3rem;
+      font-family: "Overpass";
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 92px; }
+    .about-content a {
+      color: white;
+      text-decoration: none;
+      font-size: 3.3rem;
+      font-family: "Overpass";
+      font-weight: 300; }
+      .about-content a span {
+        color: #ffc901; }
